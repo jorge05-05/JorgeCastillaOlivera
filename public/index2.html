@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/sti.css">
+</head>
+<body>  
+
+    <!-- Menu Main -->
+    <div class="container-header">
+        <header>    
+                <div class="logo">
+                    <a href="#home">Jray</a>
+                </div>
+                <nav id="nav" >
+                    <ul>
+                        <li><a class="navlink " href="#home" onclick="Selection()">Home</a></li>
+                        <li><a class="navlink" href="#skills" onclick="Selection()">Skills</a></li>
+                        <li><a class="navlink" href="#projects" onclick="Selection()">Projects</a></li>
+                        <li><a class="navlink" href="#contact" onclick="Selection()">Contact</a></li>
+                        <li><a href="/public/CV-JRAYMUNDO.docx" class="btn-download" download="">Descargar Cv</a></li>
+                    </ul>
+                </nav>
+                <!-- <div class="download-button"> -->
+                    <!-- <a href="#" class="btn-download">Descargar Cv</a> -->
+                <!-- </div> -->
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+    </div>
+
+    <!-- Section Home -->
+    <section id="home" class="inicio">
+        <div class="container-about">
+            <div class="content-img">
+                    <img class="profile-pic" src="/img/jray.png" alt="">
+            </div>
+                <div class="content-aboutme"> 
+                    <h1>Jimmy Raymundo</h1>
+                    <h4>FrontEnd - Developer</h4><br>
+                    <h1>About Me!</h1>
+                    <p>
+                        Estudiante Técnico en computación e informática con gran dedicación. Que busca aprender nuevos 
+                        conocimientos y llegar a ser un gran diseñador web.Busco una oportunidad laboral para demostrar mi compromiso
+                        y capacidad de trabajo.
+                    </p>
+                    <div class="redes">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com" target="_blank "><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <!-- <div class="container-skills"> -->
+            <div class="content-skills">
+                <h1>Skills</h1>
+              <div class="row">
+                 <img src="/img/logo-js.png" alt="Facebook Icon" id="facebook">
+                 <img src="/img/logo-css.png" alt="Facebook Icon" id="facebook">
+                 <img src="/img/loog-html.png" alt="Facebook Icon" id="facebook">
+                 <img src="/img/logo-angular.png" alt="Facebook Icon" id="facebook">
+              <!-- </div>
+              <div class="row"> -->
+                  <img src="/img/logo-nodejs.png" alt="Facebook Icon" id="facebook">
+                  <img src="/img/logo-php.png" alt="Facebook Icon" id="facebook">
+                  <img src="/img/logo-react.png" alt="Facebook Icon" id="facebook">
+                  <img src="/img/logo-mysql.png" alt="Facebook Icon" id="facebook">
+              </div>
+              <!-- <div class="row">
+                  <img src="/img/logo-sql.png" alt="Facebook Icon" id="facebook">
+              </div> -->
+            <!-- </div> -->
+        </div>
+    </section>
+    
+    <!-- SECTION PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="container-projects">
+            <h1 class="title">Projects</h1>
+            <div class="gallery">
+              <!-- <div class="gallery"> -->
+                   <div class="project">
+                      <img src="/img/projects.png" alt="">
+                      <div class="overlay">
+                          <h3>diseño</h3> 
+                          <p>fotographyas</p>
+                      </div>
+                      <div class="programs">
+                          <a href="##"><i class="fa-brands fa-css3-alt"></i></a>
+                          <a href="##"><i class="fa-brands fa-html5"></i></a>
+                          <a href="##"><i class="fa-brands fa-js"></i></a>
+                      </div>
+                  </div>
+              <!-- </div> -->
+          <!-- <div class="gallery"> -->
+                <div class="project">
+                    <img src="/img/projects.png" alt="">
+                    <div class="overlay">
+                        <h3>diseños</h3> 
+                        <p>fotography</p>
+                    </div> 
+                    <div class="programs">
+                        <a href="##"><i class="fa-brands fa-css3-alt"></i></a>
+                        <a href="##"><i class="fa-brands fa-html5"></i></a>
+                        <a href="##"><i class="fa-brands fa-js"></i></a>
+                    </div>
+                </div>
+          <!-- </div> -->
+          <!-- <div class="gallery"> -->
+              <div class="project">
+                  <img src="/img/projects.png" alt="">
+                  <div class="overlay">
+                      <h3>diseño</h3> 
+                      <p>fotography</p>
+                  </div>
+                  <div class="programs">
+                      <a href="##"><i class="fa-brands fa-css3-alt"></i></a>
+                      <a href="##"><i class="fa-brands fa-html5"></i></a>
+                      <a href="##"><i class="fa-brands fa-js"></i></a>
+                  </div>
+               </div>
+          <!-- </div> -->
+          <!-- <div class="gallery"> -->
+              <div class="project">
+                  <img src="/img/projects.png" alt="">
+                  <div class="overlay">
+                      <h3>diseño</h3> 
+                      <p>fotography</p>
+                  </div>
+                  <div class="programs">
+                      <a href="##"><i class="fa-brands fa-css3-alt"></i></a>
+                      <a href="##"><i class="fa-brands fa-html5"></i></a>
+                      <a href="##"><i class="fa-brands fa-js"></i></a>
+                  </div>
+               </div>
+          <!-- </div> -->
+          <!-- <div class="gallery"> -->
+              <div class="project">
+                  <img src="/img/projects.png" alt="">
+                  <div class="overlay">
+                      <h3>diseño</h3> 
+                      <p>fotography</p>
+                  </div>
+                  <div class="programs">
+                      <a href="##"><i class="fa-brands fa-css3-alt"></i></a>
+                      <a href="##"><i class="fa-brands fa-html5"></i></a>
+                      <a href="##"><i class="fa-brands fa-js"></i></a>
+                  </div>
+               </div>
+          <!-- </div> -->
+          <!-- <div class="gallery"> -->
+              <div class="project">
+                  <img src="/img/projects.png" alt="">
+                  <div class="overlay">
+                      <h3>diseño</h3> 
+                      <p>fotography</p>
+                  </div>
+                  <div class="programs">
+                      <a href="##"><i class="fa-brands fa-css3-alt"></i></a>
+                      <a href="##"><i class="fa-brands fa-html5"></i></a>
+                      <a href="##"><i class="fa-brands fa-js"></i></a>
+                  </div>
+               </div>
+          <!-- </div> -->
+          </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container-contact">
+            <h1>Contacts</h1>
+            <div class="fila">
+                <div class="forms">     
+                    <input type="text" placeholder="Your name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Address">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button>
+                        Send <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FOOTER -->
+    <section id="footer" class="footer">
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="networks">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank "><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com" target="_blank "><i class="fa-brands fa-whatsapp"></i></a> 
+        </div>
+        <h2>Made in Peru <i class="fa-solid fa-star-of-david"></i> por Jray</h2>
+    </section>
+
+    <script src="/src/app.js"></script>
+</body>
+</html>
